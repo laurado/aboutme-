@@ -1,3 +1,4 @@
+/* General formatting */
 body {
 	font-family:;
 	font-size:;
@@ -5,37 +6,60 @@ body {
 	background-color: ;
 }
 
-h1, h2, h3 {
+h3 {
 	text-align: center;
 }
 
-.image
-{
+.wideimage {
 	width: 100%;
 	z-index: 0;
 }
 
-.text1
-{
-	width: 800px;
+.graybackground {
+	width:800px;
 	margin: 20px auto;
 	padding: 30px;
-	background-color: #f4f4f4;
+	background-color: #fafafa;
+}
+
+.centerdiv{
+	text-align: center;
+}
+
+/* Resume page */
+
+div ul li {
+	float: left;
+}
+
+/* About me page */
+
+#my_photo {
+	display: block;
+	height: 400px;
+	margin: 20px auto 30px auto;
+}
+
+#hello {
+	font-size: 35px;
+	font-weight: bold;
+	color: #787878;
 }
 
 /* navagation bar */
 
-ul{
+.navagation {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #f4f4f4;
+	background-color: #f4f4f4;	
 }
 
 li {
 	float: right;
 }
+
 
 li a {
 	display: block;
