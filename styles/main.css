@@ -46,33 +46,5 @@ div ul li {
 	color: #787878;
 }
 
-/* navagation bar */
-
-.navagation {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #f4f4f4;	
-}
-
-li {
-	float: right;
-}
-
-
-li a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #f8f8f8;
-}
-
-
 
 
