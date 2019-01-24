@@ -34,3 +34,9 @@ header {
 #summary {
 	font-family: var(--body-font);
 }
+
+/* links */
+
+#links i {
+	font-size: 1.3rem;
+}
