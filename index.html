@@ -6,19 +6,32 @@
 		<meta name="description" content="Laura Do Software Engineer">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="./styles/main.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Raleway">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display+SC">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
+
 	<body>
-		<header>
-			<div id="intro">
-				<h1 id="name">laura do</h1>
-				<p id="summary">Hello! I'm a web developer. A site is in the works. In the meantime, let's get in touch below!</p>
-		</div>
-		</header>
-		<nav id="links" role='navigation'>
+		<section class="about">
+			<p data-aos="fade-down" data-aos-duration="1000">
+				Hi, I'm Laura.<br>
+				I'm a Boston-based <span class="emphasis">Web Developer</span>. A site is in the works. In the meantime, let's get in touch!
+			</p>
+		</section>
+
+		<nav class="links" role='navigation'>
 			<a title="Navigate to LinkedIn" aria-label='linkedin' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/laura-do/"><i class="fab fa-linkedin"></i></a>
 			<a title="Navigate to Github" aria-label='github' target="_blank" rel="noopener noreferrer" href="https://github.com/laurado"><i class="fab fa-github"></i></a>
 		</nav>
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				offset: -50, // offset (in px) from the original trigger point
+				delay: 80, // values from 0 to 3000, with step 50ms
+				once: false, // whether animation should happen only once - while scrolling down
+				mirror: true, // whether elements should animate out while scrolling past them
+			});
+		</script>
 	</body>
 </html>
