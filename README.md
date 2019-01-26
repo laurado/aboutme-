@@ -2,6 +2,11 @@
 
 ## Built With
 
-* HTML5
-* CSS
+* Semantic HTML5
+* CSS: grid
+* Accessibility in mind
 
+## TODO
+* Accessibility
+  *  All elements can be tabbed
+* Responsive
