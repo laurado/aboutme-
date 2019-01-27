@@ -56,5 +56,5 @@ a {
 
 a:hover {
 	color: var(--light-gray);
-	background-color: var(--orange)
+	background-color: var(--orange);
 }
