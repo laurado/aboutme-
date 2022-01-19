@@ -12,22 +12,6 @@
 
 }
 
-@-webkit-keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-}
-@-moz-keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-  }
-@-o-keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-  }
-@keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-}
 
 body {
 	background-color: var(--light-gray);
@@ -44,15 +28,6 @@ body {
 	padding-left: 10px;
 }
 
-.emphasis {
-	background: linear-gradient(to right, var(--neon-green) 50%, transparent 50%);
-	background-size: 200% 100%;
-	background-position: left bottom;
-	-webkit-animation: 1.5s ease-out 0s 1 slideInFromLeft; /* Safari 4+ */
-  -moz-animation:    1.5s ease-out 0s 1 slideInFromLeft; /* Fx 5+ */
-  -o-animation:      1.5s ease-out 0s 1 slideInFromLeft; /* Opera 12+ */
-  animation:         1.5s ease-out 0s 1 slideInFromLeft; /* IE 10+, Fx 29+ */
-}
 
 /* links */
 
