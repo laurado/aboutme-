@@ -1,11 +1,13 @@
 /* global vars */
 :root {
 	--black: #000000;
+	--white: #FFFFFF;
 	--light-gray: #F5F5F5;
 	--neon-green: #DCF763;
 	--orange: #E9602A;
 	--navy: #00347D;
 	--banana: #F4E409;
+	--forest-green: #060;
 }
 
 body {
@@ -17,16 +19,14 @@ body {
     background-color: var(--neon-green);
 }
 
-/* links */
-.links {
-	text-align: center;
-	margin-top: 10vh;
+.highlightext {
+    color: var(--white);
+    background-color: var(--forest-green);
+    font-size: 14px;
 }
 
 a {
-	font-size: 1.3rem;
 	color: var(--black);
-	padding: 5px 10px;
 }
 
 a:hover {
