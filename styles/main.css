@@ -1,70 +1,32 @@
 /* global vars */
-
 :root {
 	--black: #000000;
+	--white: #FFFFFF;
 	--light-gray: #F5F5F5;
 	--neon-green: #DCF763;
 	--orange: #E9602A;
 	--navy: #00347D;
 	--banana: #F4E409;
-
-	--body-font-cap: 'Playfair Display SC', serif;
-
-}
-
-@-webkit-keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-}
-@-moz-keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-  }
-@-o-keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
-  }
-@keyframes slideInFromLeft {
-  0%   { background-position: right bottom; }
-  100% { background-position: left bottom; }
+	--forest-green: #060;
 }
 
 body {
 	background-color: var(--light-gray);
-	font-family: var(--body-font-cap);
-}
-
-/* about */
-
-.about {
-	font-size: 1.5rem;
-	max-width: 80vw;
-	margin: 40vh auto 0 auto;
-	border-left: 2px solid var(--navy);
-	padding-left: 10px;
-}
-
-.emphasis {
-	background: linear-gradient(to right, var(--neon-green) 50%, transparent 50%);
-	background-size: 200% 100%;
-	background-position: left bottom;
-	-webkit-animation: 1.5s ease-out 0s 1 slideInFromLeft; /* Safari 4+ */
-  -moz-animation:    1.5s ease-out 0s 1 slideInFromLeft; /* Fx 5+ */
-  -o-animation:      1.5s ease-out 0s 1 slideInFromLeft; /* Opera 12+ */
-  animation:         1.5s ease-out 0s 1 slideInFromLeft; /* IE 10+, Fx 29+ */
-}
-
-/* links */
-
-.links {
 	text-align: center;
-	margin-top: 10vh;
+}
+
+.highlight-green {
+    background-color: var(--neon-green);
+}
+
+.highlightext {
+    color: var(--white);
+    background-color: var(--forest-green);
+    font-size: 14px;
 }
 
 a {
-	font-size: 1.3rem;
 	color: var(--black);
-	padding: 5px 10px;
 }
 
 a:hover {
